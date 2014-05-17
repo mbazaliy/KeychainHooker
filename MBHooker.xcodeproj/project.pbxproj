@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D634241926C68900346927 /* MBHooker-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B1D6341B1926C68900346927 /* MBHooker-Prefix.pch */; };
+		B1D6342B1926C7BE00346927 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = B1D634291926C7BE00346927 /* fishhook.c */; };
+		B1D6342C1926C7BE00346927 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D6342A1926C7BE00346927 /* fishhook.h */; };
+		B1D634361926CAEB00346927 /* Hooks.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D634341926CAEB00346927 /* Hooks.h */; };
+		B1D634371926CAEB00346927 /* Hooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D634351926CAEB00346927 /* Hooks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1D6341B1926C68900346927 /* MBHooker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBHooker-Prefix.pch"; sourceTree = "<group>"; };
+		B1D634291926C7BE00346927 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		B1D6342A1926C7BE00346927 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		B1D634341926CAEB00346927 /* Hooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hooks.h; sourceTree = "<group>"; };
+		B1D634351926CAEB00346927 /* Hooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hooks.m; sourceTree = "<group>"; };
+		CF7425511409A2E7003F1922 /* MBHooker.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = MBHooker.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF74254E1409A2E7003F1922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D634141926C68900346927 /* MBHooker */ = {
+			isa = PBXGroup;
+			children = (
+				B1D634291926C7BE00346927 /* fishhook.c */,
+				B1D6342A1926C7BE00346927 /* fishhook.h */,
+				B1D634341926CAEB00346927 /* Hooks.h */,
+				B1D634351926CAEB00346927 /* Hooks.m */,
+				B1D6341B1926C68900346927 /* MBHooker-Prefix.pch */,
+			);
+			path = MBHooker;
+			sourceTree = "<group>";
+		};
+		CF7425461409A2E7003F1922 = {
+			isa = PBXGroup;
+			children = (
+				B1D634141926C68900346927 /* MBHooker */,
+				CF7425531409A2E7003F1922 /* Frameworks */,
+				CF7425521409A2E7003F1922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7425521409A2E7003F1922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7425511409A2E7003F1922 /* MBHooker.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7425531409A2E7003F1922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF74254F1409A2E7003F1922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D634361926CAEB00346927 /* Hooks.h in Headers */,
+				B1D634241926C68900346927 /* MBHooker-Prefix.pch in Headers */,
+				B1D6342C1926C7BE00346927 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF7425501409A2E7003F1922 /* MBHooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF74255E1409A2E7003F1922 /* Build configuration list for PBXNativeTarget "MBHooker" */;
+			buildPhases = (
+				CF74254D1409A2E7003F1922 /* Sources */,
+				CF74254E1409A2E7003F1922 /* Frameworks */,
+				CF74254F1409A2E7003F1922 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBHooker;
+			productName = overdrive;
+			productReference = CF7425511409A2E7003F1922 /* MBHooker.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7425481409A2E7003F1922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = CF74254B1409A2E7003F1922 /* Build configuration list for PBXProject "MBHooker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF7425461409A2E7003F1922;
+			productRefGroup = CF7425521409A2E7003F1922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7425501409A2E7003F1922 /* MBHooker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF74254D1409A2E7003F1922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D634371926CAEB00346927 /* Hooks.m in Sources */,
+				B1D6342B1926C7BE00346927 /* fishhook.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF74255C1409A2E7003F1922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF74255D1409A2E7003F1922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF74255F1409A2E7003F1922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: R&R MUSIC LIMITED";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/mbhooker.dst;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = 2;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBHooker/MBHooker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "@executable_path";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MBHooker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7425601409A2E7003F1922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: R&R MUSIC LIMITED";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/mbhooker.dst;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = 2;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBHooker/MBHooker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "@executable_path";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MBHooker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF74254B1409A2E7003F1922 /* Build configuration list for PBXProject "MBHooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF74255C1409A2E7003F1922 /* Debug */,
+				CF74255D1409A2E7003F1922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF74255E1409A2E7003F1922 /* Build configuration list for PBXNativeTarget "MBHooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF74255F1409A2E7003F1922 /* Debug */,
+				CF7425601409A2E7003F1922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7425481409A2E7003F1922 /* Project object */;
+}
